@@ -1,0 +1,1 @@
+﻿public enum JumpSourceType { Platform, Spring }

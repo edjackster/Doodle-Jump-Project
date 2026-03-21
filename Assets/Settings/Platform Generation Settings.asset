@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0676c1c67bbac547b0a193602980dca, type: 3}
+  m_Name: Platform Generation Settings
+  m_EditorClassIdentifier: 
+  platformSpawnRules:
+  - {fileID: 11400000, guid: 97bc2009de5d16d409c1cdd34d33006f, type: 2}
+  - {fileID: 11400000, guid: 8eb1609b0b34fd345b5f01681af32b5a, type: 2}
+  - {fileID: 11400000, guid: f978a23fac0fd9f4891580d88ab4a967, type: 2}
+  - {fileID: 11400000, guid: be75b6c23a8c12e4981cb0b02c712d3c, type: 2}
+  boosterSpawnRules:
+  - {fileID: 11400000, guid: 1b71af47716fd2345979a4625224c05e, type: 2}
+  - {fileID: 11400000, guid: 9f8365a773feeb6428cad99b47d078e3, type: 2}
+  trapSpawnRules: {fileID: 11400000, guid: 685dd201934913e4cadad9d2804d8d69, type: 2}
+  minPlatformStepY: 0.8
+  maxPlatformStepY: 1.5
+  minTrapStepY: 1
+  maxTrapStepY: 1.3
+  maxJumpY: 3
+  levelHeight: 150

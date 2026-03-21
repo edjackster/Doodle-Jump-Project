@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: bee4ce34636c3644ea144bcef92bb358
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: multiplayer-tiles_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 275
+        width: 400
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1123b8d8467f3428d1bd59c98ea2b0
+      internalID: -761839502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplayer-tiles_1
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 430
+        width: 222
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e3fe796adcf0149a8120c70c870948
+      internalID: 993647138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplayer-tiles_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 346
+        width: 222
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a07180f391c76448d3cb1ce4a09dd2
+      internalID: 1488115331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplayer-tiles_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 288
+        width: 149
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6ae54d4809cd341af4802738a6dc60
+      internalID: 1834709882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplayer-tiles_18
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 303
+        width: 61
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5904381ad9f31b42aabf98f8ad86692
+      internalID: -353540054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplayer-tiles_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 640
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f0377916707a04994a9af31da13098
+      internalID: 934515518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplayer-tiles_79
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 42
+        width: 222
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb5b6f4aa1482944bbf5f0d8e53f594
+      internalID: 1660071997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplayer-tiles_80
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 69
+        width: 147
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56252c628bfb5f41b7c53f8ebf10a6f
+      internalID: 604182661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplayer-tiles_98
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 9
+        width: 147
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84a4062240a8484b91c8ed5f4fea45d
+      internalID: 804417980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplayer-tiles_2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 379
+        width: 350
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e751a5e53eb364593cf6e26e8cb386
+      internalID: 138423262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplayer-tiles_3
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 25
+        width: 303
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c420070033467a340829be4d4767369b
+      internalID: 1683054813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      multiplayer-tiles_0: -761839502
+      multiplayer-tiles_1: 993647138
+      multiplayer-tiles_10: 1376922393
+      multiplayer-tiles_100: -515047560
+      multiplayer-tiles_11: 1488115331
+      multiplayer-tiles_12: 1815358451
+      multiplayer-tiles_13: -776789087
+      multiplayer-tiles_14: 1757154698
+      multiplayer-tiles_15: 1759461187
+      multiplayer-tiles_16: -930192193
+      multiplayer-tiles_17: 1834709882
+      multiplayer-tiles_18: -353540054
+      multiplayer-tiles_19: -1331389496
+      multiplayer-tiles_2: 138423262
+      multiplayer-tiles_20: 1611485021
+      multiplayer-tiles_21: 217757673
+      multiplayer-tiles_22: -1280407035
+      multiplayer-tiles_23: 272462899
+      multiplayer-tiles_24: 69859385
+      multiplayer-tiles_25: 2106759146
+      multiplayer-tiles_26: -1354624178
+      multiplayer-tiles_27: 787967867
+      multiplayer-tiles_28: -584845356
+      multiplayer-tiles_29: -775265613
+      multiplayer-tiles_3: 1683054813
+      multiplayer-tiles_30: 340097906
+      multiplayer-tiles_31: 1822273748
+      multiplayer-tiles_32: 134771879
+      multiplayer-tiles_33: -24923366
+      multiplayer-tiles_34: -1105983614
+      multiplayer-tiles_35: 934515518
+      multiplayer-tiles_36: 700401979
+      multiplayer-tiles_37: 1755245683
+      multiplayer-tiles_38: -1307495844
+      multiplayer-tiles_39: 1761542820
+      multiplayer-tiles_4: 1543630952
+      multiplayer-tiles_40: 1865919971
+      multiplayer-tiles_41: -792981608
+      multiplayer-tiles_42: 1820557696
+      multiplayer-tiles_43: 1201771055
+      multiplayer-tiles_44: 233298783
+      multiplayer-tiles_45: 1599698950
+      multiplayer-tiles_46: 1635539995
+      multiplayer-tiles_47: -1050297770
+      multiplayer-tiles_48: -1090822396
+      multiplayer-tiles_49: -204801925
+      multiplayer-tiles_5: -1467450526
+      multiplayer-tiles_50: 240585025
+      multiplayer-tiles_51: 1791550220
+      multiplayer-tiles_52: 2050975225
+      multiplayer-tiles_53: 504300358
+      multiplayer-tiles_54: -792162683
+      multiplayer-tiles_55: -1854960160
+      multiplayer-tiles_56: 328487324
+      multiplayer-tiles_57: 551949123
+      multiplayer-tiles_58: 1740506226
+      multiplayer-tiles_59: -257070507
+      multiplayer-tiles_6: -1022528959
+      multiplayer-tiles_60: -988856047
+      multiplayer-tiles_61: -99402157
+      multiplayer-tiles_62: -1267897600
+      multiplayer-tiles_63: -891495147
+      multiplayer-tiles_64: 2030845293
+      multiplayer-tiles_65: -1602333253
+      multiplayer-tiles_66: -820916682
+      multiplayer-tiles_67: 401964570
+      multiplayer-tiles_68: -578953594
+      multiplayer-tiles_69: -955931109
+      multiplayer-tiles_7: 2098154000
+      multiplayer-tiles_70: 1984037481
+      multiplayer-tiles_71: 770879402
+      multiplayer-tiles_72: 533996838
+      multiplayer-tiles_73: 994656466
+      multiplayer-tiles_74: 1392010261
+      multiplayer-tiles_75: -196324595
+      multiplayer-tiles_76: -1576890977
+      multiplayer-tiles_77: 920821142
+      multiplayer-tiles_78: 1040175428
+      multiplayer-tiles_79: 1660071997
+      multiplayer-tiles_8: 876571099
+      multiplayer-tiles_80: 604182661
+      multiplayer-tiles_81: 389591898
+      multiplayer-tiles_82: 746071220
+      multiplayer-tiles_83: 158874601
+      multiplayer-tiles_84: -1415968319
+      multiplayer-tiles_85: -1811604171
+      multiplayer-tiles_86: -1954918052
+      multiplayer-tiles_87: 1828856942
+      multiplayer-tiles_88: -1240221158
+      multiplayer-tiles_89: 47506811
+      multiplayer-tiles_9: -1202228298
+      multiplayer-tiles_90: 1471219751
+      multiplayer-tiles_91: 857371862
+      multiplayer-tiles_92: -1621465083
+      multiplayer-tiles_93: -167139653
+      multiplayer-tiles_94: -1184876206
+      multiplayer-tiles_95: 1526965884
+      multiplayer-tiles_96: 2115534120
+      multiplayer-tiles_97: 1842030947
+      multiplayer-tiles_98: 804417980
+      multiplayer-tiles_99: -1016284771
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
