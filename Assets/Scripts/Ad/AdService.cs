@@ -13,8 +13,6 @@ public class AdService : IRewardedVideoAdListener, IDisposable
 
     public AdService(SignalBus signalBus)
     {
-        Debug.Log("AddService Create");
-        
         _signalBus = signalBus;
         _signalBus.Subscribe<ResumeButtonSignal>(ShowAd);
         
