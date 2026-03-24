@@ -9,8 +9,6 @@ public class MovingPlatform : Platform
     
     private int _direction = 1;
     private float _speed = 1;
-    
-    public override PlatformType Type { get; protected set; } = PlatformType.Moving;
 
     private void OnDrawGizmos()
     {

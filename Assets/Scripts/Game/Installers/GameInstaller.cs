@@ -64,7 +64,6 @@ public class GameInstaller : MonoInstaller
         Container.DeclareSignal<FallSignal>();
         Container.DeclareSignal<FinishSignal>();
         Container.DeclareSignal<FallInHallSignal>();
-        Container.DeclareSignal<HitByEnemySignal>();
         Container.DeclareSignal<StopSignal>();
         Container.DeclareSignal<ScoreChangedSignal>();
         Container.DeclareSignal<HighScoreChangedSignal>();

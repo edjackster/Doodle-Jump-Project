@@ -6,7 +6,6 @@ public class Timer : MonoBehaviour
 {
     public event Action TimesUp;
 
-    private float _tick;
     private Coroutine _timer;
 
     public void SetTime(float duration)

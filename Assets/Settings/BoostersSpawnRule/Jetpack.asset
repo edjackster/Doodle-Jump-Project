@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81a06abde4304776bfbec1034094d5a9, type: 3}
   m_Name: Jetpack
   m_EditorClassIdentifier: 
-  <Type>k__BackingField: 2
-  <Chance>k__BackingField: 0.1
+  _type: 2
+  _chance: 0.05

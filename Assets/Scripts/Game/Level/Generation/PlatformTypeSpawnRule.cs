@@ -3,8 +3,13 @@
 [CreateAssetMenu(menuName = "Settings/PlatformSpawnRule")]
 public class PlatformTypeSpawnRule: ScriptableObject
 {
-    [field: SerializeField] public PlatformType Type { get; private set; }
-    [field: SerializeField] public AnimationCurve ChanceByHeight { get; private set; }
-    [field: SerializeField] public float MinSpawnHeight { get; private set; }
-    [field: SerializeField] public bool CanSpawnBooster { get; private set; }
+    [SerializeField] private PlatformType _type;
+    [SerializeField] private AnimationCurve _chanceByHeight;
+    [SerializeField] private float _minSpawnHeight;
+    [SerializeField] private bool _canSpawnBooster;
+    
+    public PlatformType Type => _type;
+    public AnimationCurve ChanceByHeight => _chanceByHeight;
+    public float MinSpawnHeight => _minSpawnHeight;
+    public bool CanSpawnBooster => _canSpawnBooster;
 }

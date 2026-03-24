@@ -4,8 +4,6 @@ using Zenject;
 
 public class MovableZoneMover : MonoBehaviour
 {
-    [SerializeField] private PlayerStopper _playerStopper;
-    
     private SignalBus _signalBus;
     private List<Movable> _platforms = new List<Movable>();
 

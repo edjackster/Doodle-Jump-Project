@@ -15,22 +15,22 @@ public class GameStateService: IInitializable, IDisposable
     {
         _signalBus.Subscribe<FinishSignal>(Win);
         _signalBus.Subscribe<FallSignal>(Lose);
-        _signalBus.Subscribe<HitByEnemySignal>(Lose);
         _signalBus.Subscribe<FallInHallSignal>(Lose);
         _signalBus.Subscribe<RestartButtonSignal>(OnRestartPress);
         _signalBus.Subscribe<PauseButtonSignal>(SwitchPause);
         _signalBus.Subscribe<ResumeAdWatchedSignal>(Resume);
+        _signalBus.Subscribe<MenuButtonSignal>(TurnPauseOff);
     }
     
     public void Dispose()
     {
         _signalBus.Unsubscribe<FinishSignal>(Win);
         _signalBus.Unsubscribe<FallSignal>(Lose);
-        _signalBus.Unsubscribe<HitByEnemySignal>(Lose);
         _signalBus.Unsubscribe<FallInHallSignal>(Lose);
         _signalBus.Unsubscribe<RestartButtonSignal>(OnRestartPress);
         _signalBus.Unsubscribe<PauseButtonSignal>(SwitchPause);
         _signalBus.Unsubscribe<ResumeAdWatchedSignal>(Resume);
+        _signalBus.Unsubscribe<MenuButtonSignal>(TurnPauseOff);
     }
 
     private void OnRestartPress()
@@ -44,15 +44,25 @@ public class GameStateService: IInitializable, IDisposable
         switch (_state)
         {
             case GameState.Running:
-                _state = GameState.Pause;
-                _signalBus.Fire(new PauseSignal());
+                TurnPauseOn();
                 break;
             
             case GameState.Pause:
-                _state = GameState.Running;
-                _signalBus.Fire(new UnpauseSignal());
+                TurnPauseOff();
                 break;
         }
+    }
+
+    private void TurnPauseOn()
+    {
+        _state = GameState.Pause;
+        _signalBus.Fire(new PauseSignal());
+    }
+
+    private void TurnPauseOff()
+    {
+        _state = GameState.Running;
+        _signalBus.Fire(new UnpauseSignal());
     }
 
     private void Win()
@@ -75,6 +85,9 @@ public class GameStateService: IInitializable, IDisposable
 
     private void Resume()
     {
+        if(_state != GameState.GameOver)
+            return;
+        
         _signalBus.Fire(new ResumeSignal());
         _state = GameState.Running;
     }

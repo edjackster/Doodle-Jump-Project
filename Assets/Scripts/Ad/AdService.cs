@@ -1,7 +1,6 @@
 using System;
 using AppodealStack.Monetization.Api;
 using AppodealStack.Monetization.Common;
-using UnityEngine;
 using Zenject;
 
 public class AdService : IRewardedVideoAdListener, IDisposable

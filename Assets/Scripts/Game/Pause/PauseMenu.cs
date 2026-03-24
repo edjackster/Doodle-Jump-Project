@@ -19,7 +19,7 @@ public class PauseMenu: MonoBehaviour
         _signalBus.Subscribe<UnpauseSignal>(Resume);
     }
 
-    public void OnDisable()
+    private void OnDisable()
     {
         _signalBus.Unsubscribe<PauseSignal>(Pause);
         _signalBus.Unsubscribe<UnpauseSignal>(Resume);

@@ -29,6 +29,7 @@ public class SceneChanger : MonoBehaviour
 
     private void OnMenuPress(MenuButtonSignal signal)
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(MenuSceneName);
     }
 

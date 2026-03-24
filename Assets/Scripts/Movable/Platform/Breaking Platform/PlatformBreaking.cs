@@ -10,8 +10,6 @@ public class PlatformBreaking : Platform
     private PlatformBreakingAnimator _animator;
     private PlatformBreakingMover _mover;
     private PlatformBreakingSoundPlayer _soundPlayer;
-    
-    [field: SerializeField]  public override PlatformType Type { get; protected set; } = PlatformType.Breakable;
 
     private void Awake()
     {

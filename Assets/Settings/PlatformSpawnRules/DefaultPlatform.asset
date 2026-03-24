@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5fdbdf20551443680b99c7bc41b5c4b, type: 3}
   m_Name: DefaultPlatform
   m_EditorClassIdentifier: 
-  <Type>k__BackingField: 0
-  <ChanceByHeight>k__BackingField:
+  _type: 0
+  _chanceByHeight:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
@@ -37,5 +37,5 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  <MinSpawnHeight>k__BackingField: 0
-  <CanSpawnBooster>k__BackingField: 1
+  _minSpawnHeight: 0
+  _canSpawnBooster: 1

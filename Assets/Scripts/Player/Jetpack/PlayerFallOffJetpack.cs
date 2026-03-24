@@ -4,7 +4,6 @@ public class PlayerFallOffJetpack: MonoBehaviour
 {
     private const string PickUpTriggerName = "Fall";
     
-    [SerializeField] private float _duration; 
     [SerializeField]private Animator _animator;
 
     public void FallOff(Transform target)

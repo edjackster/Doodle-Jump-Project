@@ -9,7 +9,6 @@ public class PlayerJetpack: MonoBehaviour
     [SerializeField] private float _force;
     [SerializeField] private float _duration; 
     [SerializeField] private Rigidbody2D _rigidbody2D;
-    [SerializeField] private AnimationClip _jetpackAnimation;
     [SerializeField] private PlayerFallOffJetpack _fallOffJetpack;
     
     private SignalBus _signalBus;

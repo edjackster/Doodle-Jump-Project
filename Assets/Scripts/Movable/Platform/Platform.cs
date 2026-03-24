@@ -3,10 +3,11 @@ using Zenject;
 
 public abstract class Platform: Movable
 {
-    public abstract PlatformType Type { get; protected set; }
-    
+    [SerializeField] protected PlatformType _type;
     [SerializeField] protected Spring _spring;
     [SerializeField] protected Jetpack _jetpack;
+
+    public PlatformType Type => _type;
 
     public void AddSignalBus(SignalBus signalBus)
     {

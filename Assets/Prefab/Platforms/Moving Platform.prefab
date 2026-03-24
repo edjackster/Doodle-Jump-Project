@@ -194,6 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c942b6ac4294a24d945274ca3afedd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _type: 2
   _spring: {fileID: 4929220991387248303}
   _jetpack: {fileID: 1493999389030882933}
   _maxX: 2

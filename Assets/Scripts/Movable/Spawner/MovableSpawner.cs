@@ -6,7 +6,6 @@ public class MovableSpawner : MonoBehaviour
     private const float StartDistance = 9.5f;
     private const float FinishDistance = 3f;
     
-    [SerializeField] private PlayerStopper _stopper;
     [SerializeField] private float _xRange = 1f;
     [SerializeField] private Finish _finishPrefab;
     

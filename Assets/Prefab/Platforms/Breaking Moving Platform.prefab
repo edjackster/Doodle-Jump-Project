@@ -317,9 +317,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3758346a30870a94ca858f87cf311b87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _type: 3
   _spring: {fileID: 4321141006814133951}
   _jetpack: {fileID: 1348501061386127023}
-  <Type>k__BackingField: 3
 --- !u!114 &1126497277223720549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,6 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c942b6ac4294a24d945274ca3afedd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _type: 3
   _spring: {fileID: 4321141006814133951}
   _jetpack: {fileID: 1348501061386127023}
   _maxX: 2

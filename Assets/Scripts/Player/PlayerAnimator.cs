@@ -13,16 +13,14 @@ public class PlayerAnimator : MonoBehaviour
     [SerializeField] private Sprite _jump;
     [SerializeField] private float _minVelocityToJump;
     
-    private IInput _input;
     private Rigidbody2D _rigidbody;
     private SpriteRenderer _spriteRenderer;
     private Animator _animator;
     private SignalBus _signalBus;
 
     [Inject]
-    private void Construct(IInput input, SignalBus signalBus)
+    private void Construct(SignalBus signalBus)
     {
-        _input =  input;
         _signalBus = signalBus;
     }
 
